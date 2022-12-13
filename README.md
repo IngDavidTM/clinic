@@ -27,16 +27,15 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Vet Clinic Database <a name="about-project"></a>
+# 📖 Medical Database <a name="about-project"></a>
 
-> I built a vet clinic database that stores information about animals.
-
+> A database schema for storing medical information
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The site was built with PSQL
+> The database is built with PostgreSQL
 
 <details>
   <summary>Database</summary>
@@ -45,24 +44,18 @@
   </ul>
 </details>
 
-
-
 ### Key Features <a name="key-features"></a>
-
 
 - **The table contains information about animals**
 - **With the queries you can filter the data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-
 
 - Not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -76,22 +69,22 @@ In order to run this project you need:
 sudo apt-get install postgresql postgresql-contrib
 
 ```
+
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```
   cd my-folder
-  git clone git@github.com:IngDavidTM/vet-clinic-database.git
+  git clone git@github.com:IngDavidTM/clinic.git
 ```
 
 ### Install
 
 Install this project with:
 
-
 ```
-cd vet-clinic-database
+cd clinic
 ```
 
 ### Usage
@@ -106,16 +99,19 @@ not available
 
 To run tests, run the following command:
 
-
 ```
 not available
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Fábio Lima**
+
+- GitHub: [@limavfabio](https://github.com/limavfabio)
+- Twitter: [@limavfabio](https://twitter.com/limavfabio)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/limavfabio)
 
 👤 **David Tamayo**
 
@@ -123,16 +119,13 @@ not available
 - Twitter: [@David5TM](https://twitter.com/David5TM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ing-david-tamayo)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [ ] **More data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -150,16 +143,13 @@ If you like this project, kindly give a start to support a greater and widesprea
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for their template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ❓ FAQ <a name="faq"></a>
-
 
 - **Do i need node installed?**
 
@@ -170,7 +160,6 @@ I would like to thank Microverse for their template.
   - Not necessary
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
