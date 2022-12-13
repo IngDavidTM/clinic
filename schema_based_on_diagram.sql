@@ -51,3 +51,10 @@ FOREIGN KEY (medical_histories_id) REFERENCES medical_histories(id),
 FOREIGN KEY (treatments_id) REFERENCES treatments(id),
 PRIMARY KEY(id)
 ); 
+
+CREATE INDEX index_patient_id ON medical_histories(patient_id);
+CREATE INDEX index_medical_history_id ON invoices(medical_history_id);
+CREATE INDEX index_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX index_treatment_id ON invoice_items(treatment_id);
+CREATE INDEX index_medical_histories_id ON medical_histories_treatments(medical_histories_id);
+CREATE INDEX index_treatments_id ON medical_histories_treatments(treatments_id);
